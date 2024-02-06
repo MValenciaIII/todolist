@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
-    <div className="container-fluid">
+    <div className="container-fluid pageBackground">
         <App />
     </div>
 )

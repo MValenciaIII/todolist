@@ -1,17 +1,14 @@
 import TodoList from './components/Todolist'
 import './style.css'
+import Header from './components/Header'
 //TODO LIST
 
 
 function App() {
 
     return(
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-sm-3 text-center toDoListTitle">
-                    <h2>Mikel's Todo List</h2>
-                </div>
-            </div>
+        <div className="container toDoListContainer">
+            <Header />
             <TodoList />
         </div>
     )

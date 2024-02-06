@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+}
+
+.toDoListContainer {
+    margin-top: 100px;
+}
+
+.toDoListTitle {
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #ADB6C1;
+    border: solid black 2px;
+    border-bottom: none;
+}
+
+.noteList {
+    background-color: #E5E7E9;
+    padding: 5px;
+    border: solid black 2px;
+    border-top: none;
+}
+
+
+.itemContainer {
+    font-family: 'Gowun Dodum', sans-serif;
+    color: #422704;
+    border-bottom: dotted gray 2px;
+    margin-top: 20px;
+}
+
+
