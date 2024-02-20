@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import ToDoListRow from './components/TodoListRow'
+import Inputbox from './components/Inputbox'
 import './style.css'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     return(
         <div className="container toDoListContainer">
             <Header />
-            <ToDoListRow />
+
+            <Inputbox />
         </div>
     )
 }

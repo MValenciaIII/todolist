@@ -18,6 +18,7 @@ body {
     padding: 5px;
     border: solid black 2px;
     border-top: none;
+    border-bottom: none;
 }
 
 
@@ -28,4 +29,19 @@ body {
     margin-top: 20px;
 }
 
+
+.inputContainer {
+    background-color: #E5E7E9;
+    border: solid black 2px;
+    border-top: none;
+}
+
+.inputContainer input {
+    margin: 6px 0px;
+}
+
+.inputContainer button {
+    background-color: antiquewhite;
+    margin: 6px 0;
+}
 
